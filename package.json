@@ -1,8 +1,12 @@
 {
-  "name": "xjp_aws",
-  "version": "0.0.132",
+  "name": "aws_wrapper",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovinbm/aws_wrapper.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

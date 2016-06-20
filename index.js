@@ -12,4 +12,4 @@ var Aws_wrapper = function () {
 
 require('./lib/index')(Aws_wrapper);
 
-exports._aws_wrapper = new Aws_wrapper();
+exports._aws_wrapper = Aws_wrapper;

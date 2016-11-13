@@ -6,10 +6,10 @@
  *
  * @constructor
  */
-var Aws_wrapper = function () {
-  this.name = 'XAws';
+const AwsWrapper = function () {
+  this.name = 'AwsWrapper';
 };
 
-require('./lib/index')(Aws_wrapper);
+require('./lib/index')(AwsWrapper);
 
-exports.Aws_wrapper = Aws_wrapper;
+exports.AwsWrapper = AwsWrapper;
